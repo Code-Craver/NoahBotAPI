@@ -1,0 +1,32 @@
+.pp, .tooltip, header {
+    display: none;
+}
+    body {
+        background-color: #34383c;
+    }
+    *{padding:0;font-family: Poppins, Sans-serif;}
+
+.btn-spotify:hover {
+ background-color: #3498DB;
+  color: white;
+}
+.btn-spotify {
+  position: absolute;
+ text-align:center;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 16px 48px 18px;
+    -webkit-transition-property: background-color,border-color,color,-webkit-box-shadow,-webkit-filter;
+    transition-property: background-color,border-color,color,-webkit-box-shadow,-webkit-filter;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-property: background-color,border-color,color,box-shadow,filter,-webkit-box-shadow,-webkit-filter;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    outline-style: none;
+}
